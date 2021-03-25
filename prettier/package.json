@@ -1,0 +1,11 @@
+{
+  "author": "xxx",
+  "description": "Prettier config shared between projects.",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@darwinia/prettier",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@darwinia/tslint",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

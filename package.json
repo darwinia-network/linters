@@ -1,0 +1,24 @@
+{
+  "name": "@darwinia/lints",
+  "version": "1.0.0",
+  "description": "Configurations shared between typescript projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "config",
+    "darwinia",
+    "tsconfig",
+    "tslint",
+    "stylelint",
+    "commitlint",
+    "prettier"
+  ],
+  "author": "",
+  "license": "ISC"
+}

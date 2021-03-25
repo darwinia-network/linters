@@ -1,0 +1,15 @@
+{
+  "author": "xxx",
+  "description": "Commitlint configurations shared between different projects.",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@darwinia/commitlint",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
