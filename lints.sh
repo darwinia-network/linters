@@ -14,13 +14,13 @@ module.exports = prettier;
 
 END_TEXT
 
-cat > .stylelint.config.js << END_TEXT
+cat > stylelint.config.js << END_TEXT
 const { stylelint } = require('@darwinia/lints');
 
 module.exports = stylelint;
 END_TEXT
 
-rm -rf tsconfig.json
+rm -f tsconfig.json
 
 cat > tsconfig.json << END_TEXT
 {
@@ -29,15 +29,18 @@ cat > tsconfig.json << END_TEXT
 
 END_TEXT
 
-rm -rf tslint.json
+rm -f .eslintrc.js
+cp "./node_modules/@darwinia/lints/eslint/index.js" ".eslintrc.js"
 
-cat > tslint.json << END_TEXT
+rm -f tslint.json
 
-{
-  "extends": ["@darwinia/lints/tslint"]
-}
+# cat > tslint.json << END_TEXT
 
-END_TEXT
+# {
+#   "extends": ["@darwinia/lints/tslint"]
+# }
+
+# END_TEXT
 
 # create .prettierc for vscode
 

@@ -2,7 +2,7 @@
 
 ## Usage
 
-In the tslint.json that you want to extends the rules of 'x-tslint', add the content below:
+In the tslint.json that you want to extends the rules of '@darwinia/lints/tslint', add the content below:
 
 ```json
 {
