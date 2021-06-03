@@ -31,18 +31,9 @@ END_TEXT
 
 rm -f .eslintrc.js
 cp "./node_modules/@darwinia/lints/eslint/index.js" ".eslintrc.js"
+cp "./node_modules/@darwinia/lints/eslint/eslintignore" ".eslintignore"
 
 rm -f tslint.json
-
-# cat > tslint.json << END_TEXT
-
-# {
-#   "extends": ["@darwinia/lints/tslint"]
-# }
-
-# END_TEXT
-
-# create .prettierc for vscode
 
 touch .prettierrc
 
