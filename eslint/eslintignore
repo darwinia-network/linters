@@ -4,3 +4,5 @@ node_modules
 dist
 # don't lint nyc coverage output
 coverage
+# don't check the config files in the root folder
+/*.js
